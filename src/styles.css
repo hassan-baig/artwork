@@ -1,0 +1,50 @@
+.artwork {
+  object-fit: contain;
+  width: 100%;
+  height: 100vh;
+  cursor: pointer;
+}
+
+.image-bg {
+  background-color: black;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.text-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #020202c4;
+  cursor: pointer;
+}
+
+.artist {
+  margin: 0px;
+  color: black;
+  font-size: 20px;
+  margin-bottom: 5px;
+  color: white;
+}
+
+.title {
+  margin: 0px;
+  color: black;
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+}
